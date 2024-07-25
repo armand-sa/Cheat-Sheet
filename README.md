@@ -1,7 +1,5 @@
 # Challenge Project: Build Your Own Cheat Sheet
-## Front-End Engineer Path
-
-***IMPROVED STYLING WITH CSS***
+## Front-End Engineer Path - Improved Styling with CSS
 
 ___
 
