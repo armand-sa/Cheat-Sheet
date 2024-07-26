@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML/CSS Cheat Sheet</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
 
@@ -19,6 +20,159 @@
 
     <h1>HTML/CSS Cheat Sheet</h1>
 
+    <!-- Quote section -->
+    <section>
+      <blockquote>
+        <p>&ldquo;Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains.&rdquo; —Aldous Huxley</p>
+      </blockquote>
+    </section>
+
+    <!-- HTML section -->
+    <section>
+      <h2>The most common &amp; important HTML tags</h2>
+
+      <article>
+        <table>
+          <thead>
+            <tr>
+              <th>No:</th>
+              <th>Name:</th>
+              <th>Example:</th>
+              <th>Description:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Anchor tag</td>
+              <td><code>&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;</code></td>
+              <td>Defines a hyperlink, which is used to link from one page to another.</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Link tag</td>
+              <td><code>&lt;link href="styles.css" rel="stylesheet"&gt;</code></td>
+              <td>Defines the relationship between the current document and an external resource. Commonly used to link to stylesheets.</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Image tag</td>
+              <td><code>&lt;img src="image.jpg" alt="Description of image"&gt;</code></td>
+              <td>Embeds an image in the document.</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Script tag</td>
+              <td><code>&lt;script src="script.js"&gt;&lt;/script&gt;</code></td>
+              <td>Embeds or refers to an external JavaScript file.</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Iframe tag</td>
+              <td><code>&lt;iframe src="https://www.example.com"&gt;&lt;/iframe&gt;</code></td>
+              <td>Embeds another HTML page within the current page.</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Audio tag</td>
+              <td><code>&lt;audio src="audio.mp3" controls&gt;&lt;/audio&gt;</code></td>
+              <td>Embeds an audio file in the document.</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Video tag</td>
+              <td><code>&lt;video src="video.mp4" controls&gt;&lt;/video&gt;</code></td>
+              <td>Embeds a video file in the document.</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Division tag</td>
+              <td><code>&lt;div&gt;This is a division.&lt;/div&gt;</code></td>
+              <td>Defines a division or section in an HTML document.</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Span tag</td>
+              <td><code>&lt;span&gt;This is a span.&lt;/span&gt;</code></td>
+              <td>Used to group inline-elements in a document.</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Paragraph tag</td>
+              <td><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></td>
+              <td>Defines a paragraph.</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Heading tags</td>
+              <td><code>&lt;h1&gt;This is a heading&lt;/h1&gt;</code></td>
+              <td>Defines HTML headings, with &lt;h1&gt; being the highest (or most important) level and &lt;h6&gt; the lowest.</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Unordered list tag</td>
+              <td><code>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ul&gt;</code></td>
+              <td>Defines an unordered (bulleted) list.</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>Ordered list tag</td>
+              <td><code>&lt;ol&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ol&gt;</code></td>
+              <td>Defines an ordered (numbered) list.</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>List item tag</td>
+              <td><code>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ul&gt;</code></td>
+              <td>Defines a list item.</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>Button tag</td>
+              <td><code>&lt;button type="button"&gt;Click Me!&lt;/button&gt;</code></td>
+              <td>Defines a clickable button.</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>Emphasis tag</td>
+              <td><code>&lt;em&gt;This text is emphasized&lt;/em&gt;</code></td>
+              <td>Renders text with emphasis (typically italics).</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>Strong tag</td>
+              <td><code>&lt;strong&gt;This text is strong&lt;/strong&gt;</code></td>
+              <td>Renders text with strong importance (typically bold).</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>Break tag</td>
+              <td><code>&lt;br&gt;</code></td>
+              <td>Inserts a single line break.</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>Horizontal rule tag</td>
+              <td><code>&lt;hr&gt;</code></td>
+              <td>Defines a thematic break in the content (typically a horizontal line).</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>Quote tag</td>
+              <td><code>&lt;blockquote&gt;This is a blockquote&lt;/blockquote&gt;</code></td>
+              <td>Defines a section that is quoted from another source.</td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>Code tag</td>
+              <td><code>&lt;code&gt;console.log('Hello, World!');&lt;/code&gt;</code></td>
+              <td>Defines a fragment of computer code.</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+
     <!-- CSS Selectors section -->
     <section>
       <h2>CSS Selectors &amp; specificity scores</h2>
@@ -29,8 +183,8 @@
         <ul>
           <li><strong>Inline styles</strong> - specificity score higher than any calculated selector - <em>(1000+)</em></li>
           <li><strong>ID selectors</strong> - <em>a</em> - represents the number of ID selectors - <em>(100)</em></li>
-          <li><strong>Class selectors, attribute selectors, and pseudo-class selectors</strong> - <em>b</em> - represents the number of ID selectors - <em>(10)</em></li>
-          <li><strong>Element/Type selectors and pseudo-element selectors</strong> - <em>c</em> - represents the number of ID selectors - <em>(1)</em></li>
+          <li><strong>Class selectors, attribute selectors, and pseudo-class selectors</strong> - <em>b</em> - represents the number of class, attribute, or pseudo-class selectors - <em>(10)</em></li>
+          <li><strong>Element/Type selectors and pseudo-element selectors</strong> - <em>c</em> - represents the number of type or pseudo-element selectors - <em>(1)</em></li>
         </ul>
       </article>
 
@@ -41,7 +195,7 @@
             <tr>
               <th>No:</th>
               <th>Name:</th>
-              <th>Example</th>
+              <th>Example:</th>
               <th>Description:</th>
               <th>Specificity Score:</th>
             </tr>
@@ -74,6 +228,7 @@
               <td><code>[href*="https:"] { color: green; }</code></td>
               <td>Selects elements based on the presence or value of an attribute.</td>
               <td>0-1-0 (10)</td>
+            </tr>
             <tr>
               <td>5</td>
               <td>Pseudo-Class Selector</td>
