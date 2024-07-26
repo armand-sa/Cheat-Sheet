@@ -6,6 +6,141 @@
   <title>HTML/CSS Cheat Sheet</title>
 </head>
 <body>
-  
+
+  <!-- The header section -->
+  <header>
+    <nav>
+      <!-- Navigation items go here -->
+    </nav>
+  </header>
+
+  <!-- The main section -->
+  <main>
+
+    <h1>HTML/CSS Cheat Sheet</h1>
+
+    <!-- CSS Selectors section -->
+    <section>
+      <h2>CSS Selectors &amp; specificity scores</h2>
+
+      <article>
+        <h3><strong>IICE</strong> - Explanation of Specificity Score Values</h3>
+        <p>The values <code>100a + 10b + c</code> represent the specificity score for CSS selectors, where:</p>
+        <ul>
+          <li><strong>Inline styles</strong> - specificity score higher than any calculated selector - <em>(1000+)</em></li>
+          <li><strong>ID selectors</strong> - <em>a</em> - represents the number of ID selectors - <em>(100)</em></li>
+          <li><strong>Class selectors, attribute selectors, and pseudo-class selectors</strong> - <em>b</em> - represents the number of ID selectors - <em>(10)</em></li>
+          <li><strong>Element/Type selectors and pseudo-element selectors</strong> - <em>c</em> - represents the number of ID selectors - <em>(1)</em></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>CSS Selectors with specificity scores<br><span> (ranked from highest to lowest)</span></h3>
+        <table>
+          <thead>
+            <tr>
+              <th>No:</th>
+              <th>Name:</th>
+              <th>Example</th>
+              <th>Description:</th>
+              <th>Specificity Score:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Inline Style</td>
+              <td><code>&lt;p style="color: blue;"&gt;Text&lt;/p&gt;</code></td>
+              <td>Styles applied directly to an element via the <code>style</code> attribute.</td>
+              <td>Highest specificity (1000+)</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>ID Selector</td>
+              <td><code>#unique { color: purple; }</code></td>
+              <td>Selects the element with the given ID attribute.</td>
+              <td>1-0-0 (100)</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Class Selector</td>
+              <td><code>.example { color: red; }</code></td>
+              <td>Selects all elements with the given class attribute.</td>
+              <td>0-1-0 (10)</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Attribute Selector</td>
+              <td><code>[href*="https:"] { color: green; }</code></td>
+              <td>Selects elements based on the presence or value of an attribute.</td>
+              <td>0-1-0 (10)</td>
+            <tr>
+              <td>5</td>
+              <td>Pseudo-Class Selector</td>
+              <td><code>a:hover { color: yellow; }</code></td>
+              <td>Selects elements based on their state or position (e.g., <code>:hover</code>, <code>:nth-child</code>).</td>
+              <td>0-1-0 (10)</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>General Sibling Selector</td>
+              <td><code>h1 ~ p { color: purple; }</code></td>
+              <td>Selects all <code>p</code> elements that are siblings of an <code>h1</code>.</td>
+              <td>0-0-2 (2)</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Adjacent Sibling Selector</td>
+              <td><code>h1 + p { color: red; }</code></td>
+              <td>Selects the <code>p</code> element that is immediately following an <code>h1</code>.</td>
+              <td>0-0-2 (2)</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Child Selector</td>
+              <td><code>div &gt; p { color: green; }</code></td>
+              <td>Selects all <code>p</code> elements that are direct children of a <code>div</code>.</td>
+              <td>0-0-2 (2)</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Descendant Selector</td>
+              <td><code>div p { color: blue; }</code></td>
+              <td>Selects all <code>p</code> elements that are descendants of a <code>div</code>.</td>
+              <td>0-0-2 (2)</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Pseudo-Element Selector</td>
+              <td><code>p::first-line { font-weight: bold; }</code></td>
+              <td>Selects a specific part of an element (e.g., <code>::before</code>, <code>::after</code>, <code>::first-line</code>).</td>
+              <td>0-0-1 (1)</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Type Selector</td>
+              <td><code>p { color: blue; }</code></td>
+              <td>Selects all elements of the given type (e.g., <code>p</code>, <code>h1</code>, <code>div</code>).</td>
+              <td>0-0-1 (1)</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Universal Selector</td>
+              <td><code>* { color: black; }</code></td>
+              <td>Selects all elements.</td>
+              <td>0-0-0 (0)</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      
+    </section>
+
+  </main>
+
+  <!-- The footer section -->
+  <footer>
+    <!-- Footer content goes here -->
+  </footer>
 </body>
 </html>
