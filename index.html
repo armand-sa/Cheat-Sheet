@@ -4,25 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML/CSS Cheat Sheet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Nunito:ital@0;1&family=Orbitron&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" type="text/css" href="./css/reset.css"> -->
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
 
   <!-- The header section -->
-  <header>
+  <header id="home">
     <nav>
       <!-- Navigation items go here -->
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#html">HTML Tags</a></li>
         <li><a href="#css">CSS Selectors</a></li>
-        <li><a href="#contact">CSS Selectors</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- The main section -->
-  <main id="home">
+  <main>
 
     <h1>HTML/CSS Cheat Sheet</h1>
 
@@ -35,7 +39,11 @@
 
     <!-- HTML section -->
     <section id="html">
-      <h2>The most common &amp; important HTML tags</h2>
+      <h2>1. The most common &amp; important HTML tags</h2>
+
+      <figure>
+        <img src="./images/element-anatomy.webp" alt="Diagram of HTML element anatomy with a paragraph tag containing 'Hello World!', showing the opening tag, content, and closing tag.">
+      </figure>
 
       <article>
         <table>
@@ -177,11 +185,16 @@
           </tbody>
         </table>
       </article>
+      <p><a href="#home">Return Home</a></p>
     </section>
 
     <!-- CSS Selectors section -->
     <section id="css">
-      <h2>CSS Selectors &amp; specificity scores</h2>
+      <h2>2. CSS Selectors &amp; specificity scores</h2>
+
+      <figure>
+        <img src="./images/css-anatomy.webp" alt="CSS rule anatomy diagram with 'color: blue;' example showing selector, opening tag, declaration block, attribute, property, and value.">
+      </figure>
 
       <article>
         <h3><strong>IICE</strong> - Explanation of Specificity Score Values</h3>
@@ -294,7 +307,7 @@
           </tbody>
         </table>
       </article>
-      
+      <p><a href="#home">Return Home</a></p>
     </section>
 
   </main>
@@ -302,12 +315,12 @@
   <!-- The footer section -->
   <footer id="contact">
     <!-- Footer content goes here -->
+    <h4>Created by: <strong>Armand McKey</strong>, 26 July, 2024 &copy;</h4>
     <ul>
-      <li>Created by: <strong>Armand McKey</strong>, 26 July, 2024</li>
-      <li><a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">Call Us</a></li>
-      <li><a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer">Email Us</a></li>
-      <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></li>
-      <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></li>
+      <li><a href="tel:+27722855596" target="_blank" rel="noopener noreferrer">Call me</a></li>
+      <li><a href="mailto:arri.vdm@gmail.com" target="_blank" rel="noopener noreferrer">Email me</a></li>
+      <li><a href="https://www.linkedin.com/in/armand-van-der-merwe-jhb/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></li>
+      <li><a href="https://github.com/armand-sa" target="_blank" rel="noopener noreferrer">Visit my GitHub</a></li>
     </ul>
   </footer>
 </body>
