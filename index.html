@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML/CSS Cheat Sheet</title>
+  <link rel="icon" sizes="16x16" href="./images/Favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Nunito:ital@0;1&family=Orbitron&display=swap" rel="stylesheet">
@@ -190,7 +191,7 @@
       <article>
         <h3><strong>IICE</strong> - Explanation of Specificity Score Values</h3>
         <p>The values <code>100a + 10b + c</code> represent the specificity score for CSS selectors, where:</p>
-        <ul>
+        <ul class="score">
           <li><strong>Inline styles</strong> - specificity score higher than any calculated selector - <em>(1000+)</em></li>
           <li><strong>ID selectors</strong> - <em>a</em> - represents the number of ID selectors - <em>(100)</em></li>
           <li><strong>Class selectors, attribute selectors, and pseudo-class selectors</strong> - <em>b</em> - represents the number of class, attribute, or pseudo-class selectors - <em>(10)</em></li>
@@ -306,9 +307,9 @@
   <footer id="contact">
     <!-- Footer content goes here -->
     <h4>Created by: <strong>Armand McKey</strong>, 26 July, 2024 &copy;</h4>
-    <ul>
-      <li><a href="tel:+27722855596" target="_blank" rel="noopener noreferrer">Call me</a></li>
-      <li><a href="mailto:arri.vdm@gmail.com" target="_blank" rel="noopener noreferrer">Email me</a></li>
+    <ul id="contact-details">
+      <li><a href="tel:+27722855596" target="_blank" rel="noopener noreferrer">Call me: +27722855596</a></li>
+      <li><a href="mailto:arri.vdm@gmail.com">Email me: arri.vdm@gmail.com</a></li>
       <li><a href="https://www.linkedin.com/in/armand-van-der-merwe-jhb/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></li>
       <li><a href="https://github.com/armand-sa" target="_blank" rel="noopener noreferrer">Visit my GitHub</a></li>
     </ul>
