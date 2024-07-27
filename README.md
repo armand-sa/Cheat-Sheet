@@ -1,7 +1,7 @@
 # Challenge Project: Build Your Own Cheat Sheet
 ## Front-End Engineer Path - Improved Styling with CSS
 
-**Link to Live site:** [Cheat Sheet]()
+**Link to Live site:** [Cheat Sheet](https://armand-sa.github.io/Cheat-Sheet/)
 
 ![Screenshot of Project: Build Your Own Cheat Sheet](./images/website.webp)
 ___
